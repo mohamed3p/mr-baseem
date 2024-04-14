@@ -1,0 +1,96 @@
+.containjer {
+    width: 50%;
+    margin: 0 auto;
+    size: 5cm;
+    height: 5%;
+    float:right;
+    margin-right: 200px;
+  
+   
+}
+.imagee {
+float:right;
+    margin-right: 440px;
+    margin-top: 25px;
+size: 20cm;
+width: 20%;
+height: 20%;
+}
+
+
+
+body {
+    background-image: url("image/moha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.8);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.form-container {
+    width: 600px;
+    height: 500px;
+    padding: 100px;
+    background-color: rgb(44, 40, 40);
+    margin: 0 auto;
+    margin-top: 200px;
+    box-shadow: 0px 0px 10px 0px grey;
+    border-radius: 8%;
+}
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 160px;
+    
+}
+ .form-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 50px;
+    border: 1px solid #ff0000;
+    border-radius: 100px;  
+}
+.form-container input[type="username"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 100px; 
+   
+}
+.form-container button[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #f15208;
+    color: rgb(2, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.form-container button[  type="submit"]:hover {
+    background-color: #00aa44;
+    
+}
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; 
+}
+
+.imageee{
+
+    color: #050000;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

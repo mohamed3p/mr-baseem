@@ -1,0 +1,193 @@
+body {
+  background-image: url('image/moha.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0; /* لإزالة الهوامش الافتراضية */
+  padding: 0; /* لإزالة الحشو الافتراضي */
+}
+
+
+
+.image {
+  height: 100px;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 20px; /* تم تعديل الهوامش العلوية هنا */
+  margin-bottom: 20px; /* تم تعديل الهوامش السفلية هنا */
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* المسافة بين المربعات */
+  padding: 20px;
+}
+
+.box {
+  background-color: #110101;
+  border-radius: 15px;
+  overflow: hidden; /* لضمان عدم تجاوز الصورة للمربع */
+  cursor: pointer; /* تغيير المؤشر عند التحويل */
+  transition: transform 0.0s ease; /* تأثير عند التحويل */
+  position: relative; /* إضافة لتحكم في النص المتحرك */
+}
+
+.box:hover {
+  transform: scale(1.05); /* تكبير المربع عند التحويل */
+}
+
+.box img {
+  width: 100%;
+  height: 200px; /* ارتفاع الصورة داخل المربع */
+  object-fit: cover; /* لتغطية المربع بالصورة */
+}
+
+.box p {
+  text-align: center;
+  margin: 50px 0;
+  color: #f5f0f0;
+  font-size: large;
+}
+
+.subscribe-text {
+  position: absolute;
+  top: 30%;
+  left: 26%;
+ 
+  background-color: rgb(255, 72, 0);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.box:hover .subscribe-text {
+  opacity: 1;
+  transform: scale(1.05); /* تكبير المربع عند التحويل */
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.651); /* تظليل المربع بالكامل بدرجة شفافة عند التحويل */
+}
+
+.imager {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: relative;
+  animation: moveUp 2s infinite alternate, moveLeft 2s infinite alternate; /* تم دمج الخاصية في سطر واحد */
+  left: 580px;
+}
+
+@keyframes moveUp {
+  to {
+    bottom: 450px; /* تم استبدال left بـ bottom هنا */
+  }
+}
+
+@keyframes moveLeft {
+  to {
+    left: 250px; ; /* تم استبدال bottom بـ left هنا */
+  }
+}
+.flex-center-both {
+  justify-content: center;
+}
+.flex-center-both, .flex-center-y {
+  align-items: center;
+  display: flex;
+}
+.py-20 {
+  padding-bottom: 5rem;
+  padding-top: 5rem
+rem
+;
+}
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85/var(--tw-bg-opacity));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+.w-full {
+  width: 100%;
+}
+*, h1, h2, h3, h4, h5, label, li, p, ul {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;}
+  *, :after, :before {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59,130,246,.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    /* --tw-backdrop-invert: ; */
+    -invert: ;
+    */ackdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ; }
+    *, :after, :before {
+      border: 0 solid #e5e7eb;
+      box-sizing: border-box;
+  }
+  
+
